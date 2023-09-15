@@ -16,3 +16,26 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  padding: 1rem;
+}
+
+.products {
+  display: flex; /* items next to each other */
+  flex-wrap: wrap; /* if there's no space, new items will be pushed to
+                    the next line */
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem; /* creates space between itens */
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
